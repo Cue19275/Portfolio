@@ -1,2 +1,2 @@
-# Potfolio
- This repository contains a snapshot of some of the most interesting projects that I have been a part of along my carreer.
+# Two channel and 7 band audio equalizer
+ This app consists of an audio equalizer based on python and using LTSpice. A circuit was designed to model the range of gain and attenuation each band could get. The circuit was calculated using ideal OpAmps. Once the circuit schematic and simulation was tested, a python script that automated the parameters of each band according to the desired gain was developed. Finally everything was put together in a GUI using pyQT.
