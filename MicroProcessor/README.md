@@ -1,2 +1,2 @@
-# Potfolio
- This repository contains a snapshot of some of the most interesting projects that I have been a part of along my carreer.
+# 4 Bit MicroProcessor
+This project consists of a functional 4 bit instruction microprocessor. Firstly each part of the architecture was disgned as a different verilog module.From the ALU to the clock of the processor, everything was tested individually. Then a ROM module was developed in which the code that the processor was going to run was stored. This can be seen as an assemly language code. Finally, a testbench file was created, to run the desired instructions in the ROM.
