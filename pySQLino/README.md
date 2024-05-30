@@ -1,18 +1,12 @@
 # pySQLino
-Repositorio público de la librería encargada de automatizar y sincronizar el uso de sistemas embebidos y bases de datos por medio de Python.
+Public repository of the library responsible for automating and synchronizing the use of embedded systems and databases through Python.
+# Prerequisite Software
+->Have SQL Server downloaded and ensure it can be accessed both by SQL Server Security User and by Windows Authentication.
+->The internal libraries of pySQLino are native to the standard Python installation. In case of errors, check the imports section of the code and complete the missing imported libraries in that section.
+->ArduinoIDE to load the .ino code file onto an ARDUINO UNO board exclusively.
+# Using pySQLino
+->Clone the repository or download the following two files: pySQLino.py and pySQLino.ino.
+->Place the pySQLino.py file in the same active directory as the Python code file implementing the library.
+->Load the code contained in pySQLino.ino onto an ARDUINO UNO board. For each new use of the board with a new process instance using the Python library, it is strongly recommended to press the reset button on the board.
 
-# Software Previo
-->Tener descargado SQL Server y garantizar que se puede acceder tanto por SQL Server Security User como por Windows Authentication
-->Las librerías internas de pySQLino son nativas con la instalación estándar de python. En caso de errores verificar la sección de imports
-del código y completar el catálogo de librerías faltantes importadas en esa sección.
-->ArduinoIDE para poder cargar el archivo con el código .ino a una placa ARDUINO UNO excluisvamente.
-
-
-# Uso de pySQLino
-->Clonar el repositorio o descargar los siguientes dos archivos: pySQLino.py  y pySQLino.ino
-->Poner el archivo de pySQLino.py en el mismo directorio activo que el archivo con el
-código de python a implementar la librería.
-->Cargar el código contenido en pySQLino.ino a una placa ARDUINO UNO. Para cada nuevo uso de la placa con una
-instancia de proceso nuevo utilizando la librería de python, se recomienda fuertemente apachar el botón de reset de la placa.
-
-*Como referencia se influye un archivo pruebaslib.py en donde se puede observar como se implementa la librería con todas sus funciones*
+As a reference, a pruebaslib.py file is included where you can see how the library is implemented with all its functions
