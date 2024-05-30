@@ -1,0 +1,12 @@
+.param R1 200
+.param R2 200
+.param R3 800
+.param R4 800
+.param R5 1.6k
+.param R6 500
+.param R7 800
+.param R8 1k
+.param R9 1k
+.param R10 1k
+.param R11 100Meg
+.param time 10
