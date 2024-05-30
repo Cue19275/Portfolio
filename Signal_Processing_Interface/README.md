@@ -1,2 +1,2 @@
-# Potfolio
- This repository contains a snapshot of some of the most interesting projects that I have been a part of along my carreer.
+# Singal Processing Interface
+ This project consists of a signal processing interface that can either take input signals from the physical world thanks to the interconnection of a TivaC microcontroller, or previously serialized signals with a given timeframe. The interface was constructed within matlab. Once an input signal is chosen, this one can be trasnformed with effects such as filtering or amplification. All the effects where modeled from scracth using matlab.
